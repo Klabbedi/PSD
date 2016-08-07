@@ -11,7 +11,7 @@ print('-------------------')
 print('Starting program...')
 file_name = 'test.npy'
 print('Loading '+str(file_name)+'...')
-data = np.load(file_name)
+data = np.load(file_name). # data[:, 0] is X acc, data[:, 1] is Y acc, data[:, 2] is Z acc and data[:, 3] is the time vector.
 
 print('Plotting X acceleration...')
 fig_x = plt.figure()
