@@ -9,9 +9,9 @@ import numpy as np
 console.clear()
 print('-------------------')
 print('Starting program...')
-test_time = 10.0  # Test time in seconds
-print('Analysis time: '+str(test_time))
-test_freq = 90.0  # Freq in Hz. Max 100.0?
+test_time = 10.0  # Capture time in seconds
+print('Capture time: '+str(test_time))
+test_freq = 90.0  # Sample rate in Hz. Max 100.0?
 print('Sample rate: '+str(test_freq)+'Hz')
 pause_time = 3.0  # Pause time before data capture
 print('Pause time: '+str(pause_time))
